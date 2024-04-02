@@ -1,0 +1,16 @@
+Create a table element with random data with 4 rows and at least 4 columns.
+
+Requirements:
+
+A table with <thead>, <tbody>, and <tfoot> on the top level
+At least one colspan and rowspan attributes should be used
+A <caption> element should be used.
+Dev notes:
+
+Include this <style> element to the end of a <head> element to add  a border to your table cells.
+
+<style>
+    body * {
+        border: 1px solid black;
+    }
+</style>
