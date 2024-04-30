@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99b46d74-257a-4614-88b9-ba9961c0cd8f" name="Changes" comment="" />
+    <list default="true" id="99b46d74-257a-4614-88b9-ba9961c0cd8f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,7 +37,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Study/EPIC/ITFD/FirstPortfolio/Homework3",
+    "last_opened_file_path": "D:/Study/EPIC/ITFD/FirstPortfolio",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +77,10 @@
       <workItem from="1712162502393" duration="1531000" />
       <workItem from="1712341525108" duration="135000" />
       <workItem from="1712407777870" duration="3478000" />
-      <workItem from="1712432313794" duration="4848000" />
+      <workItem from="1712432313794" duration="4988000" />
+      <workItem from="1712438861058" duration="82000" />
+      <workItem from="1712485175696" duration="11000" />
+      <workItem from="1714502178100" duration="2155000" />
     </task>
     <servers />
   </component>
