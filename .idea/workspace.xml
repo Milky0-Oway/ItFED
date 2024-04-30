@@ -17,6 +17,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -38,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Study/EPIC/ITFD/FirstPortfolio",
-    "list.type.of.created.stylesheet": "CSS",
+    "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,7 +81,7 @@
       <workItem from="1712432313794" duration="4988000" />
       <workItem from="1712438861058" duration="82000" />
       <workItem from="1712485175696" duration="11000" />
-      <workItem from="1714502178100" duration="2155000" />
+      <workItem from="1714502178100" duration="2665000" />
     </task>
     <servers />
   </component>
