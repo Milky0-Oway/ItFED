@@ -1,0 +1,133 @@
+:root {
+    --color-50: #FCF8F0;
+    --color-100: #F8EFDC;
+    --color-200: #ECD3A7;
+    --color-300: #E6C28B;
+    --color-400: #DBA25C;
+    --color-500: #D2893D;
+    --color-600: #C47332;
+    --color-700: #A35A2B;
+    --color-800: #834929;
+    --color-900: #6A3D24;
+    --color-950: #391E11;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, p, h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+    background: var(--color-100);
+    color: var(--color-950);
+}
+
+.nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0 1.5rem;
+    min-height: 4rem;
+    background-color: var(--color-200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.nav-link {
+    position: relative;
+    font-weight: 500;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: var(--color-900);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav-link:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.main {
+    padding-top: 5rem;
+}
+
+.hero {
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.hero-img-container {
+    max-width: 500px;
+}
+
+.hero-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.hero-cta {
+    margin-top: 1rem;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    color: var(--color-50);
+}
+
+.cta-primary {
+    background-color: var(--color-500);
+    transition: background-color 0.1s ease-in-out;
+}
+
+.cta-primary:hover {
+    background-color: var(--color-600);
+}

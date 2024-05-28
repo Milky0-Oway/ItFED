@@ -3,96 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet"
+    />
     <title>Portfolio</title>
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
+    <nav class="nav">
+      <ul class="nav-links">
         <li>
-          <a href="#about">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a class="nav-link" href="#services">Services</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact form</a>
+          <a class="nav-link" href="#contact">Contact form</a>
         </li>
       </ul>
     </nav>
   </header>
-  <section aria-label="hero">
-    <h1>Hey, my name is Milena and I am a web developer</h1>
-    <a href="#contact">Contact me</a>
-  </section>
-  <section aria-label="about" id="about">
-    <h2>About</h2>
-    <img src="images/profile-photo.jpeg" alt="profile-photo" width="400"/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum et itaque repellat saepe tenetur vitae. Architecto eius pariatur velit voluptatibus. Accusantium, corporis ex obcaecati optio sapiente soluta. Debitis error esse odio pariatur quam rerum similique. A ad adipisci aliquam animi beatae commodi consectetur corporis eaque earum error esse et excepturi in inventore ipsum, laboriosam maxime natus nesciunt nisi numquam odio omnis optio pariatur placeat porro quaerat quos repudiandae sed sequi sint vel voluptatem voluptates voluptatibus? Ad atque cumque, deserunt et excepturi facere fugiat harum illo, labore molestiae neque pariatur quae quas quasi quis quo reiciendis rerum sapiente sint vitae.</p>
-  </section>
-  <section aria-label="services" id="services">
-    <h2>Services</h2>
-    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fuga minus officiis quasi voluptatem. Amet architecto blanditiis delectus, deleniti dolore est exercitationem explicabo illo laborum nostrum nulla officiis, pariatur praesentium quam quas quidem tempore, tenetur velit veritatis voluptatem. Nostrum ullam, vel? Aliquid animi deserunt, fugit nemo odio provident ratione vero?</h3>
-    <div>
+  <main class="main">
+    <section class="hero" aria-label="hero">
+      <div class="hero-wrapper">
+        <div class="hero-text">
+          <h1>Hey, my name is Milena and I am a web developer</h1>
+          <a class="cta cta-primary hero-cta" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-img-container">
+        <img class="hero-img" src="images/profile-photo.jpeg" alt="profile-photo"/>
+      </div>
+    </section>
+    <section aria-label="about" id="about">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dolorum et itaque repellat saepe tenetur vitae. Architecto eius pariatur velit voluptatibus. Accusantium, corporis ex obcaecati optio sapiente soluta. Debitis error esse odio pariatur quam rerum similique. A ad adipisci aliquam animi beatae commodi consectetur corporis eaque earum error esse et excepturi in inventore ipsum, laboriosam maxime natus nesciunt nisi numquam odio omnis optio pariatur placeat porro quaerat quos repudiandae sed sequi sint vel voluptatem voluptates voluptatibus? Ad atque cumque, deserunt et excepturi facere fugiat harum illo, labore molestiae neque pariatur quae quas quasi quis quo reiciendis rerum sapiente sint vitae.</p>
+    </section>
+    <section aria-label="services" id="services">
+      <h2>Services</h2>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fuga minus officiis quasi voluptatem. Amet architecto blanditiis delectus, deleniti dolore est exercitationem explicabo illo laborum nostrum nulla officiis, pariatur praesentium quam quas quidem tempore, tenetur velit veritatis voluptatem. Nostrum ullam, vel? Aliquid animi deserunt, fugit nemo odio provident ratione vero?</h3>
+      <div>
+        <article>
+          <img src="images/landing-page.png" alt="landing-page" />
+          <h4>Landing page</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+        </article>
+        <article>
+          <img src="images/personal-blog.png" alt="personal-blog" />
+          <h4>Personal blog</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+        </article>
+        <article>
+          <img src="images/web-design.png" alt="web-design" />
+          <h4>Web design</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+        </article>
+      </div>
+    </section>
+    <section aria-label="projects" id="projects">
+      <h2>Projects</h2>
       <article>
-        <img src="images/landing-page.png" alt="landing-page" />
-        <h4>Landing page</h4>
+        <img src="images/project1.jpg" alt="project1" width="400"/>
+        <h4>Project 1</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+        <form action="projects/project1.html" target="_blank">
+          <button>View more</button>
+        </form>
       </article>
       <article>
-        <img src="images/personal-blog.png" alt="personal-blog" />
-        <h4>Personal blog</h4>
+        <img src="images/project2.jpg" alt="project2" width="400"/>
+        <h4>Project 2</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+        <form action="projects/project2.html" target="_blank">
+          <button>View more</button>
+        </form>
       </article>
       <article>
-        <img src="images/web-design.png" alt="web-design" />
-        <h4>Web design</h4>
+        <img src="images/project3.jpg" alt="project3" width="400"/>
+        <h4>Project 3</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+        <form action="projects/project3.html" target="_blank">
+          <button>View more</button>
+        </form>
       </article>
-    </div>
-  </section>
-  <section aria-label="projects" id="projects">
-    <h2>Projects</h2>
-    <article>
-      <img src="images/project1.jpg" alt="project1" width="400"/>
-      <h4>Project 1</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
-      <form action="projects/project1.html" target="_blank">
-        <button>View more</button>
+    </section>
+    <section aria-label="contact" id="contact">
+      <h2>Get in touch</h2>
+      <form action="http://formsubmit.co/milka.korotkaya@gmail.com">
+        <label for="name">Name</label>
+        <input id="name" name="Name" placeholder="ex. Alex" required minlength="2" />
+        <label for="email">Email</label>
+        <input id="email" name="Email" placeholder="alex@gmail.com" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Enter your message" minlength="10" maxlength="200" required></textarea>
+        <button type="submit">Send</button>
       </form>
-    </article>
-    <article>
-      <img src="images/project2.jpg" alt="project2" width="400"/>
-      <h4>Project 2</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
-      <form action="projects/project2.html" target="_blank">
-        <button>View more</button>
-      </form>
-    </article>
-    <article>
-      <img src="images/project3.jpg" alt="project3" width="400"/>
-      <h4>Project 3</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
-      <form action="projects/project3.html" target="_blank">
-        <button>View more</button>
-      </form>
-    </article>
-  </section>
-  <section aria-label="contact" id="contact">
-    <h2>Get in touch</h2>
-    <form action="http://formsubmit.co/milka.korotkaya@gmail.com">
-      <label for="name">Name</label>
-      <input id="name" name="Name" placeholder="ex. Alex" required minlength="2" />
-      <label for="email">Email</label>
-      <input id="email" name="Email" placeholder="alex@gmail.com" required />
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Enter your message" minlength="10" maxlength="200" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    </section>
+  </main>
   <footer>
     <p>All rights reserved.</p>
     <address>milka.korotkaya@gmail.com</address>

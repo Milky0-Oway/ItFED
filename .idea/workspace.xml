@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99b46d74-257a-4614-88b9-ba9961c0cd8f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,7 +40,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Study/EPIC/ITFD/FirstPortfolio",
-    "list.type.of.created.stylesheet": "SCSS",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,9 +52,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\EPIC\ITFD\FirstPortfolio" />
       <recent name="D:\Study\EPIC\ITFD\FirstPortfolio\Homework3" />
       <recent name="D:\Study\EPIC\ITFD\FirstPortfolio\Homework2" />
-      <recent name="D:\Study\EPIC\ITFD\FirstPortfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\EPIC\ITFD\FirstPortfolio\Homework3\projects" />
@@ -82,6 +83,8 @@
       <workItem from="1712438861058" duration="82000" />
       <workItem from="1712485175696" duration="11000" />
       <workItem from="1714502178100" duration="2665000" />
+      <workItem from="1714504988269" duration="866000" />
+      <workItem from="1716924616646" duration="2624000" />
     </task>
     <servers />
   </component>
