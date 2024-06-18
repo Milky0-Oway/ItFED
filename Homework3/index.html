@@ -76,41 +76,49 @@
     </section>
     <section aria-label="projects" id="projects">
       <h2>Projects</h2>
-      <article>
-        <img src="images/project1.jpg" alt="project1" width="400"/>
-        <h4>Project 1</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
-        <form action="projects/project1.html" target="_blank">
-          <button>View more</button>
-        </form>
-      </article>
-      <article>
-        <img src="images/project2.jpg" alt="project2" width="400"/>
-        <h4>Project 2</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
-        <form action="projects/project2.html" target="_blank">
-          <button>View more</button>
-        </form>
-      </article>
-      <article>
-        <img src="images/project3.jpg" alt="project3" width="400"/>
-        <h4>Project 3</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
-        <form action="projects/project3.html" target="_blank">
-          <button>View more</button>
-        </form>
-      </article>
+      <div class="projects-container">
+        <article>
+          <img src="images/project1.jpg" alt="project1" width="330px"/>
+          <h4>Project 1</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+          <form action="projects/project1.html" target="_blank">
+            <button class="cta cta-primary project-cta">View more</button>
+          </form>
+        </article>
+        <article>
+          <img src="images/project2.jpg" alt="project2" width="330px"/>
+          <h4>Project 2</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+          <form action="projects/project2.html" target="_blank">
+            <button class="cta cta-primary project-cta">View more</button>
+          </form>
+        </article>
+        <article>
+          <img src="images/project3.jpg" alt="project3" width="330px"/>
+          <h4>Project 3</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aperiam delectus inventore labore, laborum nam quasi quidem reiciendis ullam vel?</p>
+          <form action="projects/project3.html" target="_blank">
+            <button class="cta cta-primary project-cta">View more</button>
+          </form>
+        </article>
+      </div>
     </section>
     <section aria-label="contact" id="contact">
       <h2>Get in touch</h2>
-      <form action="http://formsubmit.co/milka.korotkaya@gmail.com">
-        <label for="name">Name</label>
-        <input id="name" name="Name" placeholder="ex. Alex" required minlength="2" />
-        <label for="email">Email</label>
-        <input id="email" name="Email" placeholder="alex@gmail.com" required />
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Enter your message" minlength="10" maxlength="200" required></textarea>
-        <button type="submit">Send</button>
+      <form action="http://formsubmit.co/milka.korotkaya@gmail.com" class="contact-form">
+        <div>
+          <label for="name" class="contact-form-label">Name</label>
+          <input id="name" class="contact-form-input" name="Name" placeholder="ex. Alex" required minlength="2" />
+        </div>
+        <div>
+          <label for="email" class="contact-form-label">Email</label>
+          <input id="email" class="contact-form-input" name="Email" placeholder="alex@gmail.com" required />
+        </div>
+        <div>
+          <label for="message" class="contact-form-label">Message</label>
+          <textarea id="message" class="contact-form-textarea" name="message" placeholder="Enter your message" minlength="10" maxlength="200" required></textarea>
+        </div>
+        <button class="contact-form-submit-btn" type="submit">Send</button>
       </form>
     </section>
   </main>
