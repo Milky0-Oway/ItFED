@@ -12,15 +12,34 @@
   />
 </head>
 <body>
-<div class="vw-100 vh-100 bg-primary-subtle d-flex justify-content-center align-items-center">
-  <div class="bg-primary p-4 rounded" style="width: 500px;">
-    <h1 class="fs-1 text-light">Weather App</h1>
+<div
+        class="vw-100 vh-100 bg-primary-subtle d-flex justify-content-center align-items-center"
+>
+  <div class="bg-primary p-4 rounded d-flex flex-column justify-content-center align-items-center" style="width: 500px">
+    <h1 class="fs-1 text-light p-4">Weather App</h1>
     <div class="d-flex gap-3">
-      <input id="user-input" class="form-control" placeholder="Enter city..."/>
+      <input
+              id="user-input"
+              class="form-control"
+              placeholder="Enter city..."
+      />
       <button onclick="getWeather()" class="btn btn-light">Search</button>
     </div>
-    <div id="error-message" class="fs-6 text-light"></div>
-    <img id="weather-icon" class="rounded mx-auto d-block" alt=""/>
+    <p id="error-message" class="fs-6 text-light"></p>
+    <img id="weather-icon" class="rounded mx-auto d-none" alt="Weather" />
+    <p id="weather-temp" class="fs-1 text-light text-center"></p>
+    <p id="weather-city" class="fs-3 text-light text-center"></p>
+    <p id="weather-description" class="fs-4 text-light text-center"></p>
+    <div class="d-flex gap-3 justify-content-between">
+      <div class="d-flex align-items-center gap-2">
+        <img id="weather-humidity-icon" class="d-none" src="./assets/humidity.png" alt="Humidity"/>
+        <p id="weather-humidity-text" class="fs-4 text-light m-0"></p>
+      </div>
+      <div class="d-flex align-items-center gap-2">
+        <img id="weather-wind-icon" class="d-none" src="./assets//wind.png" alt="Wind"/>
+        <p id="weather-wind-text" class="fs-4 text-light m-0"></p>
+      </div>
+    </div>
   </div>
 </div>
 
